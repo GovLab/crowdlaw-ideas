@@ -392,7 +392,9 @@ background-color:rgb(138, 0, 0);
     .intro-text h2{
         text-align: center;
     }
-
+    .intro-text p{
+        padding: 0 0 0 0;
+    }
     .text-box{
         flex-direction: column;
         text-align:center;
@@ -460,7 +462,9 @@ background-color:rgb(138, 0, 0);
     .intro-text h2{
         text-align: center;
     }
-
+    .intro-text p{
+        padding: 0 0 0 0;
+    }
     .text-box{
         flex-direction: column;
         text-align:center;
