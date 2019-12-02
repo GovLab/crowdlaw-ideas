@@ -38,7 +38,7 @@ header img{
     /* background-image: url('../img/hero.jpeg');
     background-color: rgba(0,0,0,0.3);
     background-blend-mode: multiply; */
-    background: linear-gradient(#00000018,#00000028,#000000a9, #000000c9), url("img/hero.jpg") no-repeat center; 
+    background: linear-gradient(#00000018,#00000028,#000000a9, #000000c9), url("../img/hero.jpg") no-repeat center; 
     height: 75vh;
     width: 100%;
     background-repeat: no-repeat;
