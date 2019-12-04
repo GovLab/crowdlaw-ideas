@@ -312,8 +312,12 @@ background-color:rgb(138, 0, 0);
 .aarp-logo{
     height: 25px; 
     position:relative; 
-    top:-5px;
     left: 10px;
+    top: -5px;
+}
+.aarp-logo img{
+    padding:0;
+    height: 28px;
 }
 @media screen and (min-width: 860px) and (max-width: 1200px){
     .row{
