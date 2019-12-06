@@ -39,6 +39,12 @@ header img{
     background-color: rgba(0,0,0,0.3);
     background-blend-mode: multiply; */
     background: linear-gradient(#00000018,#00000028,#000000a9, #000000a9), url("../img/hero.jpeg") no-repeat center; 
+    background: -webkit-gradient(linear, left top, left bottom, from(#00000018), to(#000000a9)), url("../img/hero.jpeg") no-repeat center; 
+    background: -webkit-linear-gradient(top, #00000018, #000000a9), url("../img/hero.jpeg") no-repeat center; 
+    background: -moz-linear-gradient(top, #00000018, #000000a9), url("../img/hero.jpeg") no-repeat center; 
+    background: -ms-linear-gradient(top, #00000018, #000000a9), url("../img/hero.jpeg") no-repeat center; 
+    background: -o-linear-gradient(top, #00000018, #000000a9), url("../img/hero.jpeg") no-repeat center; 
+    background: linear-gradient(top, #00000018, #000000a9), url("../img/hero.jpeg") no-repeat center; 
     height: 75vh;
     width: 100%;
     background-repeat: no-repeat;
@@ -287,6 +293,12 @@ img.desktop{
     color: rgb(68, 13, 13);
     margin-bottom:0.4em;
 }
+.text-box a{
+    color: rgb(68, 13, 13);
+}
+.text-box a:hover{
+    color: rgb(212, 104, 104);
+}
 .text-box-white{
     padding:2em 12em 4em 12em;
     background-color:#ffffff;
@@ -310,14 +322,14 @@ background-color:rgb(138, 0, 0);
     width: 80%;
 }
 .aarp-logo{
-    height: 25px; 
+    height: 20px; 
     position:relative; 
     left: 10px;
     top: -5px;
 }
 .aarp-logo img{
     padding:0;
-    height: 28px;
+    height: 25px;
 }
 @media screen and (min-width: 860px) and (max-width: 1200px){
     .row{
