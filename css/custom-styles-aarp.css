@@ -71,6 +71,31 @@ header img{
     color: #ffffff;
     font-size: 14pt;
   }
+  .btn-survey{
+        background-color: rgba(30, 30, 30, 0.75) ;
+      display:flex;
+      margin-bottom:1em;
+      text-decoration: none;
+  }
+
+  .btn-survey:hover p{
+    transition: all .4s ease;
+     font-size:12pt;
+     padding:22px;
+     color: #d6d6d6
+  }
+
+  .btn-survey:hover{
+      background-color: rgba(0, 0, 0, 1) ;
+  }
+
+  .btn-survey p{
+  margin-bottom:0;
+      padding: 20px;
+      color: #efefef;
+      font-size: 12pt;
+  }
+
 /* .hero{
       display:flex;
       flex-direction: column;
@@ -108,6 +133,10 @@ header img{
 i.material-icons{
     font-size:30px;
     color:#333;
+}
+.btn-survey i.material-icons{
+    font-size:16pt;
+    color:#efefef;
 }
 .material-icons, .button-home {
     vertical-align: middle;
@@ -471,6 +500,9 @@ background-color:rgb(138, 0, 0);
     }
 }
 @media screen and (min-width: 450px) and (max-width: 860px){
+    .btn-survey{
+        background-color: rgba(30, 30, 30, 0.85) ;
+    }
     .row{
         display: flex;
         height: 100%;
@@ -536,6 +568,9 @@ background-color:rgb(138, 0, 0);
 }
 
 @media screen and (min-width: 320px) and (max-width: 450px){
+    .btn-survey{
+        background-color: rgba(30, 30, 30, 0.85) ;
+    }
     .row{
         display: flex;
         height: 100%;
